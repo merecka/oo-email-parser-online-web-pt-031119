@@ -15,9 +15,7 @@ class EmailParser
   end
 
   def parse
-      new_array = []
-      new_array = @emails.split(/[\s,]+/)
-      return new_array.uniq
+      emails.split(/[\s,]+/).uniq
   end
 
 end
