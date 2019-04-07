@@ -8,16 +8,10 @@ require 'pry'
 class EmailParser
 
   attr_accessor :emails
-  #   @@all_emails = []
-  #
-  # def self.all_emails
-  #   @@all_emails
-  # end
+
 
   def initialize(emails)
     @emails = emails
-#   binding.pry
-    # @@all_emails << emails
   end
 
   def parse
