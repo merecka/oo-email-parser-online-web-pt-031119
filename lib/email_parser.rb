@@ -16,7 +16,7 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails
-    binding.pry
+#   binding.pry
     # @@all_emails << emails
   end
 
