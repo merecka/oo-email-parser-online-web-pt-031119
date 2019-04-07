@@ -27,5 +27,5 @@ class EmailParser
       return new_array.uniq!
   end
 
-# binding.pry
+ binding.pry
 end
