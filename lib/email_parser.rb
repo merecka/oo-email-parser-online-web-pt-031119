@@ -20,7 +20,7 @@ class EmailParser
 
   def parse
     emails.collect do |x|
-      x.split(",").uniq!
+      x.split([\s,]",").uniq!
     end
   end
 
