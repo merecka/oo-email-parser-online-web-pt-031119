@@ -20,7 +20,7 @@ class EmailParser
     # @@all_emails << emails
   end
 
-  def parse
+  def parse(emails)
   #  binding.pry
       new_array = []
       new_array = @emails.split(/[\s,]+/)
