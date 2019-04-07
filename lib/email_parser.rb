@@ -21,6 +21,7 @@ class EmailParser
   end
 
   def parse
+    binding.pry
   #    new_array = []
       return @emails.split(/[\s,]/).uniq!
   end
