@@ -3,6 +3,7 @@
 # unique email addresses. The delimiters to support are commas (',')
 # or whitespace (' ').
 
+require 'pry'
 
 class EmailParser
 
@@ -15,6 +16,7 @@ class EmailParser
 
   def initialize(emails)
     @emails = emails
+    binding.pry
     # @@all_emails << emails
   end
 
