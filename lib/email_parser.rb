@@ -19,9 +19,7 @@ class EmailParser
   end
 
   def parse
-    @emails.collect do |x|
-      x.split(/[\s,]/).uniq!
-    end
+      emails.split(/[\s,]/).uniq!
   end
 
 
