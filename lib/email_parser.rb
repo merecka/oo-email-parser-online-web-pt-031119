@@ -22,7 +22,7 @@ class EmailParser
 
   def parse
   #    new_array = []
-      @emails.split(/[\s,]/).uniq!
+      return @emails.split(/[\s,]/).uniq!
   end
 
 
